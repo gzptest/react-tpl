@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "<%= name %>",
   "version": "",
   "description": "My React Project",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "react",
     "webpack"
   ],
-  "author": "葛展鹏 <8460914@qq.com>",
+  "author": "<%= author %>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xfcf1/react-webpack-starter/issues"

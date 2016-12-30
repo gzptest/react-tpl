@@ -1,5 +1,5 @@
 const config = {
-  port: '<% port %>',
+  port: '<%= port %>',
   title: 'react',
   vendor: [
     'react',
