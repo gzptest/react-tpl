@@ -1,0 +1,20 @@
+{
+  "plugins": [["import", [
+    { "libraryName": "antd", "style": true }
+  ]]],
+  "presets": ["es2015", "stage-0", "react"],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-react-constant-elements",
+        "transform-react-remove-prop-types",
+        "transform-react-pure-class-to-function"
+      ]
+    },
+    "development": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  }
+}
